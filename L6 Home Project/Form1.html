@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Given Form
+        </title>
+    </head>
+    <body>
+        <form style="width: 650px; height: 300px; color:white; background-color:rgb(35, 121, 137);">
+            
+                <center>
+            <table style="height: 300px;">
+                <tr>
+                    <th colspan="2"><font size="6px">
+                        Application Form
+                    </font>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <label>First Name </label>&nbsp;&nbsp;&nbsp;:
+                        <input type="text" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <label>Last Name </label>&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date Of Birth: </label>
+                        <input type="date" required>
+                    </td>
+                    <td>
+                        <label>
+                            Age 
+                        </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <input type="number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <select>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label>Email Address: </label>
+                        <input type="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Positions Available: </label>
+                        <input type="radio" name="bla">Junior Developer
+                        <input type="radio" name="bla">Mid-Level Developer
+                        <input type="radio" name="bla">Senior Developer
+            
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Programming Language: </label>
+                        <input type="checkbox">Java
+                        <input type="checkbox">JavaScript
+                        <input type="checkbox">Python
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Password </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                    <input type="password" maxlength="20" placeholder="Give a Strong One" required>
+                </td>
+                <td>
+                    <label>
+                        Confirm Password: 
+                    </label>
+                    <input type="password" maxlength="20" required>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                        <button class="ka">Submit</button>
+                        <button class="ka">Reset</button>
+                    </center>
+                    </td>
+                </tr>
+                
+            </table>
+        </center>
+        </form>
+    </body>
+    <style>
+        .ka{
+            width: 150px;
+            background-color: rgb(251, 90, 31);
+            color:white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+        .ka:hover{
+            color:red;
+            background-color: black;
+        }
+    </style>
+</html>
