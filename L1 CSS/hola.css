@@ -1,0 +1,29 @@
+table{
+    border: 2px solid red;
+    width:100%;
+    border-collapse: collapse;
+
+}
+th{
+    
+    border: 3px dashed blueviolet;
+}
+td{
+    border:2px dashed blue;
+    text-align: center;
+}
+#a{
+    color:crimson; border:2px solid; background-color: darkgreen;
+}
+#d{
+    color:darkgrey; background-color: bisque; text-align: center;
+}
+.ae{
+    color:blanchedalmond; background-color: chartreuse; text-align: right;
+}
+h5,h1{
+    color:midnightblue; background-color: lightpink;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
