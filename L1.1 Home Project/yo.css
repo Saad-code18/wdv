@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+    color:rgba(128, 251, 210, 0.705);
+    font-family:Sitka Small ;
+}
+.a{
+    text-decoration: none;
+    margin-right: 100px;
+}
+.b{
+    border: 3px solid beige;
+    padding:12px 21px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.b:hover{
+    background: linear-gradient(45deg, #e36d31, #f83706);
+    color:white;
+    border:none;
+    transform: scale(1.08);
+}
+.b:active{
+    background: linear-gradient(45deg, #e36d31, #f83706);
+    transform:scale(0.93)
+
+}
