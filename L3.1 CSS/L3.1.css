@@ -1,0 +1,45 @@
+#a{
+    font-family:Elephant; 
+    font-size: 20px;
+    color:crimson;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+.w{
+    text-align: justify;
+
+    line-height:60px;
+    margin-left: 20px;
+}
+#e{
+    text-decoration: overline underline line-through;
+    text-transform:capitalize;
+}
+dt{
+    text-decoration:overline;
+    text-transform:uppercase;
+}
+dd{
+    
+    text-decoration:underline;
+    text-transform:lowercase;
+}
+#text{
+    text-shadow: 15px 13px 2px black;
+    text-indent: 50%;
+    color:red;
+}
+#box{
+    box-shadow:5px 5px 4px cyan;
+    background-color: bisque;
+    
+}
+div{
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+
+}
+#war{
+    transform:scaleY(1.5)
+}
