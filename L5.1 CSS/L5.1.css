@@ -1,0 +1,38 @@
+.saad{
+    width:350px;
+    border: 4px dotted black;
+    padding: 3px 6px 7px 12px;
+    margin:10px;
+    border-radius:20px;
+    float:left;
+
+}
+img{
+    width:60%;
+    border: 2px dashed rgb(4, 97, 52);
+}
+p{
+    text-align: justify;
+}
+.saad:hover,.saad1:hover{
+    border: 5px dotted red;
+}
+.saad:active,.saad1:active{
+    transform: scale(1.1);
+}
+.saad1{
+    width:350px;
+    border: 4px dotted black;
+    padding: 3px 6px 7px 12px;
+    margin:10px;
+    border-radius:20px;
+    float: left;
+}
+.saad2{
+    width:350px;
+    border: 4px dotted black;
+    padding: 3px 6px 7px 12px;
+    margin:10px;
+    border-radius:20px;
+    float: left;
+}
