@@ -1,0 +1,40 @@
+.a{
+    position:static;
+    width:250px;
+    border:2px dotted rgb(133, 77, 3);
+    top:30px;
+    left:40px;
+    background-color: cyan;
+}
+.b{
+    position:fixed;
+    width:250px;
+    border:2px dotted rgb(133, 77, 3);
+    bottom:20px;
+    right:10px;
+    background-color:bisque ;
+}
+.c{
+    position:sticky;
+    width:250px;
+    border:2px dashed darksalmon;
+    top:5px;
+    right:10px;
+    background-color:#f7e467 ;
+}
+.d{
+    position:relative;
+    width:250px;
+    border:2px dashed rgb(19, 39, 152);
+    top:10px;
+    left:250px;
+    background-color:#5ef896 ;
+}
+#e{
+    position:absolute;
+    width:250px;
+    border:2px dashed rgb(239, 47, 185);
+    top:15px;
+    right:200px;
+    background-color:#67c0f7 ;
+}
