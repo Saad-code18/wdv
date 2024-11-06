@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="eagle"></p>
+    <p id="eagle1"></p>
+    <p id="eagle2"></p>
+    <p id="eagle3"></p>
+
+    <button onclick="noon()">Open</button>
+    <button onclick="saad()">Press me</button>
+    <script>
+        function saad(){
+            var x=12;
+            var y=7;
+            document.write(x%y);
+        }
+        var c=25;
+        var d=125;
+
+        function noon(){
+            var e=65;
+            document.getElementById("eagle").innerHTML=c%d+e;
+
+        }
+        document.getElementById("eagle1").innerHTML="d-e";
+        document.getElementById("eagle2").innerHTML=d-c;
+        
+        noon();
+        function miss(r,s,t){
+            return r*s+t;
+
+        }
+        document.getElementById("eagle3").innerHTML=miss(4,5,7);
+    </script>
+</body>
+</html>
