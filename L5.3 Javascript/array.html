@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="first_join"></p>
+    <p id="popit"></p>
+    <p id="pop_the_second"></p>
+    <script>
+        var fruits=[
+            "oranges",
+            "Lemons",
+            "Apples",
+            "Papayas"
+        ];
+        var flowers=[
+            "Waterlilies",
+            "Roses",
+            "Sunflowers",
+            "tulips",
+        ];
+        document.write(fruits[2]+"<br>");
+        document.write(fruits [0]+"<br>");
+        document.getElementById("first_join").innerHTML=flowers.join("$");
+        flowers.pop();
+        document.getElementById("popit").innerHTML=flowers;
+        flowers.pop();
+        document.getElementById("pop_the_second").innerHTML=flowers;
+        function add(a,b){
+            return a+b;
+        }
+        function average(a,b){
+            return add(a,b)/2;
+        
+        }
+        document.write(average(15,30))
+
+    </script>
+
+
+
+</body>
+</html>
